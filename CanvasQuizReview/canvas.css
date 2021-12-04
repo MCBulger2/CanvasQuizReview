@@ -1,0 +1,17 @@
+.user_points, .answer_arrow  {
+    display: none !important;
+}
+
+.question_input {
+    display: none;
+}
+
+.answers .answer {
+    color: black !important;
+    opacity: 1 !important;
+}
+
+.wrong_answer {
+    border: none !important;
+    border-top: 1px solid #ddd !important;
+}

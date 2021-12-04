@@ -1,0 +1,14 @@
+{
+  "name": "Canvas Quiz Review",
+  "description": "Hides the results of a Canvas Quiz so you can review it easily.",
+  "author": "Matthew Bulger",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "ui.html"
+  },
+  "permissions": ["activeTab", "scripting", "storage"]
+}
